@@ -1,4 +1,4 @@
-require './vb_with_ruby'
+require './vb_code'
 
 file = ARGV.first
 

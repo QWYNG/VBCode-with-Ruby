@@ -1,6 +1,6 @@
 require 'minitest/unit'
 require 'minitest/autorun'
-require './vb_with_ruby'
+require './vb_code'
 
 class TestVbCode < MiniTest::Unit::TestCase
 
