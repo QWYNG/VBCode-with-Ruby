@@ -6,4 +6,3 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 gem 'minitest', '~> 5.11', '>= 5.11.3'
-gem 'pry-byebug'
