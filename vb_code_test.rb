@@ -1,7 +1,6 @@
 require 'minitest/unit'
 require 'minitest/autorun'
 require './vb_with_ruby'
-require 'pry'
 
 class TestVbCode < MiniTest::Unit::TestCase
 

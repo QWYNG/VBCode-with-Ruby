@@ -1,5 +1,4 @@
 require './vb_with_ruby'
-require 'pry'
 
 file = ARGV.first
 
