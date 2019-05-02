@@ -14,7 +14,8 @@ module VbCode
 
     def vb_decode(vb_code)
       n = 0
-      vb_code.unpack('C*').each_with_object(decode_numbers = []) do |unpacked_code|
+      decode_numbers = []
+      vb_code.unpack('C*').each do |unpacked_code|
         if unpacked_code < 128
           n = 128 * n + unpacked_code
         else
@@ -22,6 +23,7 @@ module VbCode
           n = 0
         end
       end
+      decode_numbers
     end
   end
 end
